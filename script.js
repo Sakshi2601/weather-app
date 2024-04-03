@@ -40,23 +40,23 @@ form.addEventListener('submit', function (e) {
 
         // Updating the Images according to the weather
         if (weatherMain == 'Clear') {
-            image.src = `./Images/sunny.png`
+            image.src = `./sunny.png`
             myWeatherContainer.style.backgroundColor = '#ffff'
         }
         if (weatherMain == 'Clouds') {
-            image.src = `./Images/clouds.png`
+            image.src = `./clouds.png`
             myWeatherContainer.style.backgroundColor = '#ffff'
         }
         if (weatherMain == 'Rain') {
-            image.src = `./Images/Rain.png`
+            image.src = `./Rain.png`
             myWeatherContainer.style.backgroundColor = '#ffff'
         }
         if (weatherMain == 'Drizzle') {
-            image.src = `./Images/Drizzle.png`
+            image.src = `./Drizzle.png`
             myWeatherContainer.style.backgroundColor = '#ffff'
         }
         if (weatherMain == 'Haze') {
-            image.src = `./Images/Drizzle.png`
+            image.src = `./Haze.png`
             myWeatherContainer.style.backgroundColor = '#ffff'
         }
 
